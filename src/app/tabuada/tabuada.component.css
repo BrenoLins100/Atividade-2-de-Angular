@@ -1,0 +1,11 @@
+.alert{
+  margin-top: 20px;
+}
+
+.container-fluid{
+  margin-top: 40px;
+}
+
+tr:nth-child(even){
+  background: #ecf0f1;
+}

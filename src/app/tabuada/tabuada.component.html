@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <h1>Tabuada:</h1>
+
+  <input class="form-control" type="number" [(ngModel)] = "value">
+
+  <div class="container-fluid" role="alert">
+    <h2>Tabuada do {{value}}:</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Número:</th>
+          <th>Resultado:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of getOperation(); index as i">
+          <td>{{item}} x {{i}}</td>
+          <td>{{item* i}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>

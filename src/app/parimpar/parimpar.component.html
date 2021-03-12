@@ -1,0 +1,20 @@
+
+<div class="container-fluid">
+
+  <h1>Par ou ímpar:</h1>
+
+  <input class="form-control" type="number" [(ngModel)] = "num" >
+
+
+    <div  *ngIf="isEven()" class="alert alert-primary" role="alert">
+      <h2>É par</h2>
+    </div>
+
+    <div  *ngIf="isOdd()" class="alert alert-danger" role="alert">
+      <h2 >É ímpar</h2>
+    </div>
+
+  
+  
+
+</div>
