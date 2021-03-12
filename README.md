@@ -1,5 +1,5 @@
-# Atividade-Angular-2
-⚡Atividade de Angular 2 Utilizando a ide StackBlitz⚡
+# Atividade-2-de-Angular
+⚡Atividade 2 de Angular Utilizando a ide StackBlitz⚡
 
 # 📝Todo
 
