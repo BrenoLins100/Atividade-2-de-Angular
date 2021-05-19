@@ -10,6 +10,6 @@
 
 3. ⚡Criar uma página que mostre a tabuada de um número informado pelo usuário
 
-## Link para aplicação no StackBlitz em minha conta:
+## Link para aplicação na Ide StackBlitz:
 
 https://stackblitz.com/edit/atv-2?file=src/app/app.component.ts
